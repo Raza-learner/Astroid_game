@@ -1,7 +1,7 @@
 # Asteroid Game
 
 ## Overview
-Asteroid Game is a classic space-themed arcade game where players control a spaceship to navigate through an asteroid field, avoiding collisions and destroying asteroids to score points. This project is built using [programming language/framework, e.g., Python with Pygame], providing a fun and interactive gaming experience.
+Asteroid Game is a classic space-themed arcade game where players control a spaceship to navigate through an asteroid field, avoiding collisions and destroying asteroids to score points. This project is built using Python with Pygame,providing a fun and interactive gaming experience.
 
 ## Features
 - **Player Controls**: Use keyboard inputs to move the spaceship and shoot projectiles.
@@ -41,7 +41,9 @@ To run the Asteroid Game locally, follow these steps:
 ## Project Structure
 ```
 Astroid_game/
-├── circleShape.py       # Circle shapes for player and obstacle 
+├── circleShape.py       # Circle shapes for player and obstacle
+├── constants.py         #Static values of player and game
+├──player.py             #player logic      
 ├── main.py              # Main game script
 ├── requirements.txt      # List of dependencies
 └── README.md            # Project documentation
@@ -56,9 +58,6 @@ Contributions are welcome! To contribute:
 5. Open a Pull Request.
 
 Please ensure your code follows the project's coding standards and includes appropriate tests.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 For questions or feedback, please reach out to [Raza-learner](https://github.com/Raza-learner) or open an issue in the repository.
