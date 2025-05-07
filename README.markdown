@@ -41,7 +41,7 @@ To run the Asteroid Game locally, follow these steps:
 ## Project Structure
 ```
 Astroid_game/
-├── assets/               # Game assets (images, sounds, etc.)
+├── circleShape.py       # Circle shapes for player and obstacle 
 ├── main.py              # Main game script
 ├── requirements.txt      # List of dependencies
 └── README.md            # Project documentation
